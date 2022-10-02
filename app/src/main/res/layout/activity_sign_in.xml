@@ -34,7 +34,8 @@
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:padding="10dp"
-            android:textColorHint="@color/lightGrey" />
+            android:textColorHint="@color/lightGrey"
+            tools:ignore="TouchTargetSizeCheck" />
 
         <EditText
             android:id="@+id/password"
