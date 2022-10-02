@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.example.clonechat.databinding.ActivitySignUpBinding;
 import android.example.clonechat.models.Users;
 import android.os.Bundle;
@@ -29,6 +30,8 @@ public class signUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        getSupportActionBar().hide();
 
         pd = new ProgressDialog(signUp.this);
         pd.setTitle("creating account");
@@ -61,6 +64,14 @@ public class signUp extends AppCompatActivity {
                         }
                     });
                 }
+            }
+        });
+
+        binding.alreadyAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(signUp.this,signIn.class);
+                startActivity(intent);
             }
         });
 

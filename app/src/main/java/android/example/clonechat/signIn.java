@@ -31,6 +31,8 @@ public class signIn extends AppCompatActivity {
         binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        getSupportActionBar().hide();
+
         pd=new ProgressDialog(signIn.this);
         pd.setTitle("Login");
         pd.setMessage("Trying to log in");
