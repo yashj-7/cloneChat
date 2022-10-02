@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308777290833",
+    "project_id": "clone-chat-4b8e6",
+    "storage_bucket": "clone-chat-4b8e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308777290833:android:703396b51731a99cebfc70",
+        "android_client_info": {
+          "package_name": "android.example.clonechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308777290833-m582d9loif1n69re2dmc9dafvanc3d78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByNpQTr97oX7O14nGFIRqEH6zOB3iNZAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308777290833-m582d9loif1n69re2dmc9dafvanc3d78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
